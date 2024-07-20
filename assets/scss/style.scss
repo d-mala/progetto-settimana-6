@@ -1,0 +1,41 @@
+$small-font-size: 0.8em;
+
+#logo {
+    width: 100px;
+}
+
+#avatar {
+    width: 30px;
+}
+
+footer {
+    ul {
+      li {
+        font-size: $small-font-size;
+      }
+    }
+    p {
+      font-size: $small-font-size;
+    }
+    @media screen and (min-width: 576px) {
+        width: 60%;
+    }
+  } 
+
+.squared {
+    border-radius: 0px;
+}
+
+.small-icon {
+    font-size: 0.5em;
+
+    // @media screen and (max-width: 768px) {
+    //     display: none;
+    // }
+}
+
+.profile-container {
+    @media screen and (min-width: 576px) {
+        width: 50%;
+    }
+}

@@ -1,0 +1,33 @@
+#logo {
+  width: 100px;
+}
+
+#avatar {
+  width: 30px;
+}
+
+footer ul li {
+  font-size: 0.8em;
+}
+footer p {
+  font-size: 0.8em;
+}
+@media screen and (min-width: 576px) {
+  footer {
+    width: 60%;
+  }
+}
+
+.squared {
+  border-radius: 0px;
+}
+
+.small-icon {
+  font-size: 0.5em;
+}
+
+@media screen and (min-width: 576px) {
+  .profile-container {
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */
